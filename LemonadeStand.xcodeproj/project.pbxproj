@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0E62D51A6808C300563508 /* lemonade-stand-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0E62D41A6808C300563508 /* lemonade-stand-300x300.png */; };
 		EAF7EB141A67CEB000DFE633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7EB131A67CEB000DFE633 /* AppDelegate.swift */; };
 		EAF7EB161A67CEB000DFE633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7EB151A67CEB000DFE633 /* ViewController.swift */; };
 		EAF7EB191A67CEB000DFE633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF7EB171A67CEB000DFE633 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0E62D41A6808C300563508 /* lemonade-stand-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lemonade-stand-300x300.png"; sourceTree = "<group>"; };
 		EAF7EB0E1A67CEB000DFE633 /* LemonadeStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonadeStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF7EB121A67CEB000DFE633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF7EB131A67CEB000DFE633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		EAF7EB111A67CEB000DFE633 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA0E62D41A6808C300563508 /* lemonade-stand-300x300.png */,
 				EAF7EB121A67CEB000DFE633 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0E62D51A6808C300563508 /* lemonade-stand-300x300.png in Resources */,
 				EAF7EB191A67CEB000DFE633 /* Main.storyboard in Resources */,
 				EAF7EB1E1A67CEB000DFE633 /* LaunchScreen.xib in Resources */,
 				EAF7EB1B1A67CEB000DFE633 /* Images.xcassets in Resources */,
@@ -405,6 +409,7 @@
 				EAF7EB2F1A67CEB000DFE633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF7EB301A67CEB000DFE633 /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				EAF7EB321A67CEB000DFE633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
